@@ -1,0 +1,21 @@
+export interface Client {
+    id: number,
+    code: string,
+    name: string,
+    postal?: string | null,
+    address?: string | null,
+    tel?: string | null,
+    fax?: string | null,
+    email?: string | null,
+    website?: string | null,
+    initial_prior_invoice_amount?: number | null,
+    billing_cycle_type_id?: number | null,
+    billing_day?: number | null,
+    payment_method_id?: number | null,
+    transaction_type_id?: number | null,
+    name_suffix_id?: number | null,
+    user_id?: number | null,
+    allow_login?: boolean,
+    created_at?: string | null,
+    updated_at?: string | null
+}
